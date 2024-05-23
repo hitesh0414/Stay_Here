@@ -1,0 +1,338 @@
+.father{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+  background-color: rgb(15, 14, 14) !important;
+  height: 70px;
+}
+.navbar-brand{
+  color: aliceblue;
+  font-size: 40px;
+}
+.nav-link{
+  color:white !important;
+  font-size: 20px;
+  margin-left: 50px;
+}
+.navbar{
+  color:brown !important
+}
+.container-fluid{
+  margin-left: 100px;
+}
+.navbar-nav{
+  margin-left:600px;
+}
+.nav-button{
+  display: flex;
+  padding: 10px;
+  
+}
+.ms-auto .login_btn{
+  padding: 4px 10px 4px 10px;
+  
+  border: white 1px;
+  border-radius: 15px;
+  
+}
+.nav-button .register0{
+  
+  padding: 4px 10px 4px 10px;
+  border: white 1px;
+  border-radius: 15px;
+  margin-left: 20%;
+}
+
+/*--------------------------------------------------*/
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+
+}
+.image-container {
+  position: relative;
+  
+  
+}
+
+.image-container::before {
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(13, 13, 14, 0.5); 
+  /* background-size: cover; */
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 600px;
+  /* filter:blur(4px); */
+}
+
+.text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  /* font-family: Arial, sans-serif; */
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+input {
+  outline: none;
+  border: none;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.searchBar {
+  position: absolute;
+  bottom: 80px; /* Adjust this value to set the gap from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%; /* Adjust the width as needed */
+  background-color: rgb(30, 27, 33);
+  color: #6a6aba;
+  padding: 20px;
+  text-align: center;
+  /* border:solid #1f1818;
+  border-radius: 100px; */
+}
+
+
+.searchBar h1 {
+  font-size: 34px;
+  margin-bottom: 30px
+}
+
+.searchBar h1 span {
+  color: #ffffff;
+}
+
+.searchBar input {
+  padding: 20px;
+}
+
+.searchBar input:nth-last-child(1) {
+  background: #6a6aba;
+  color: #ffffff;
+}
+
+/*-------------------------------------------------------------------------------------*/
+/* new  Slider*/
+.custom-slider {
+  /* Slider container styles */
+  margin: 100px;
+  overflow: hidden; /* Ensure overflow is hidden for slider effect */
+}
+
+.slider-container {
+  display: flex;
+  gap: 10px; /* Adjust the gap between cards as needed */
+  transition: transform 0.3s ease; /* Smooth transition for slider effect */
+}
+
+.slide {
+  flex: 0 0 calc(25% - 20px); /* Show 4 slides per row; adjust width as needed */
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.slide:hover {
+  transform: scale(1.05);
+}
+
+.slide .slide-card {
+  padding: 10px;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.slide-content {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 0 0 8px 8px;
+}
+
+/* Navigation buttons styles */
+.slider-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.slider-controls button {
+  margin: 15px;
+  padding: 12px 18px 12px 18px;
+  border: none;
+  /* border-radius: 5px; */
+  background-color: #6a6aba; 
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.slider-controls button:hover {
+  background-color: #a16fd5; 
+}
+
+.slider-controls span {
+  font-size: 14px;
+  margin: 0 10px;
+}
+.button-flex{
+  color: #a16fd5;
+}
+.book-now-btn{
+  color: white;
+  background-color:#a16fd5;
+  border: none;
+  padding: 12px;
+}
+
+
+
+
+
+/*-----------------------------------------------------------------------*/
+.heading h1{
+  /* top: 55px; */
+  font-weight: 500;
+  opacity: 0.14;
+  top:-5px;
+  position:absolute;
+  font-size: 60px;
+}
+.heading p{
+  font-size: 20px;
+}
+.heading{
+  position:relative;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: -50px;
+}
+.heading h2{
+  font-size: 35px;
+  padding-top: 8px;
+}
+/*------------------*/
+/* .rooms{
+  position:relative;
+  margin:100px;
+ 
+}
+.rooms .item{
+  border: 2px rgb(220, 219, 231) solid;
+  height:500px
+}
+.rooms .text3{
+  margin:8px;
+}
+
+.button_flex{
+  
+  position: absolute;
+}
+.item button{
+  background-color: #6a6aba;
+  color: aliceblue;
+  padding: 10px;
+  border:none;
+}
+.item h3{
+  color:#6a6aba
+}
+.rooms i{
+  font-size: 14px;
+  color: #fbbc34;
+} */
+/*---------------------------*/
+/* .owl-nav .owl-prev,
+.owl-nav .owl-next{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  margin:20px;
+  background: #6a6aba !important;
+}
+.owl-nav .owl-prev i,
+.owl-nav .owl-next i{
+  color: #f1f1f5;
+}
+.owl-nav .owl-prev{
+  left:40%;
+}
+.owl-nav .owl-next{
+  right:40%;
+} */
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+.section4{
+  margin:100px;
+  margin-top: 100px;
+  background-color: #f8f5f9;
+  
+}
+.section4_1{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.section4 .div1{
+  margin-right: 70px;
+}
+.section4 h1{
+  font-size: 40px;
+  margin: 20px;
+  
+  /* margin-top: 50px; */
+}
+.section4_1 .div1 p{
+  font-size: 22px;
+  margin-top: 40px;
+  text-align: left;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section4_1  img{
+  width:600px;
+  height:400px;
+  margin-bottom: 30px;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+
+.footer {
+  background-color: rgb(30, 27, 33);
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.footer p{
+  color: white;
+}
